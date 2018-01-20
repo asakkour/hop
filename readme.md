@@ -1,9 +1,9 @@
-hop is a simple application for add, edit and dellete contact using laravel 5.5.
-1 - config your database in .env file.
-2 - use command php artisan migrate for create tables in database.
-3 - use command php artisan db:seed --class=ContactTableSeeder for add many contacts in database
-4 - use commande php artisan serve
-5 - use this url 127.0.0.1:8000/contact and enjoy.
+hop is a simple application for add, edit and dellete contact using laravel 5.5.<br>
+1 - config your database in .env file.<br>
+2 - use command php artisan migrate for create tables in database.<br>
+3 - use command php artisan db:seed --class=ContactTableSeeder for add many contacts in database.<br>
+4 - use commande php artisan serve.<br>
+5 - use this url 127.0.0.1:8000/contact and enjoy.<br>
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
