@@ -1,0 +1,196 @@
+div.row.content{
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  margin: 30px 0;
+}
+div.row.content h1{
+  font-size: 29px;
+  font-weight: 100;
+  color: #939393;
+  padding: 5px 0px;
+}
+div.row.content h1 span{
+  font-size: 15px;
+}
+div.row.content fieldset{
+  width: 100%;
+}
+.hidden{
+  display: none;
+}
+/*
+  Data table style
+*/
+
+.btn-add{
+  background: #86bc00;
+  color: #fff;
+  margin:20px 0 30px 0;
+}
+.btn-add:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-add i{
+  color: #86bc00;
+  background: #fff;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 2px;
+  margin-right: 11px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+}
+
+.dataTables_wrapper label{
+  color: #939393;
+}
+
+.dataTables_wrapper  input{
+  border: 1px solid #939396;
+  border-radius: 5px;
+  background: #e1f8ff;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background: #ccc;
+}
+
+.dataTables_wrapper thead tr{
+  background: #1f6688;
+  color: #fff;
+}
+
+.dataTables_wrapper thead tr th{
+  border: 0;
+  border-left: 1px solid;
+}
+
+.dataTables_wrapper .fa-male{
+  color: #55bfe8;
+}
+
+.dataTables_wrapper .fa-female{
+  color: #ed65b4;
+}
+
+.dataTables_wrapper tbody tr td{
+  font-size: 15px;
+  color: #5d5c5c;
+}
+
+.dataTables_wrapper .hop-btn-wrap a, .dataTables_wrapper .hop-btn-wrap button,
+.dataTables_wrapper .hop-btn-wrap form{
+  display: inline-block;
+  float: left;
+  padding: 0 4px;
+  color: #6b6969;
+  cursor: pointer;
+}
+.dataTables_wrapper .hop-btn-wrap button{
+  border: none;
+  background: none;
+}
+table.dataTable.no-footer{
+  border-bottom: 0px;
+  margin-bottom: 15px;
+}
+
+.dataTables_length select{
+  border: 1px solid #939295;
+  border-radius: 5px;
+  padding: 2px 9px;
+  background: #e1f8ff;
+}
+
+/*
+  form contact 
+  and form details
+*/
+.form-contact .left  .content,
+.form-contact .right .content{
+  border: 1px solid #58bfe8;
+  border-left: 4px solid #58bfe8;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #939393;
+  font-size: 15px;
+  min-height: 475px;
+}
+
+.form-contact .left h2,
+.form-contact .right h2{
+  font-size: 25px;
+  font-weight: 100;
+  color: #939393;
+  padding: 5px 0px;
+}
+
+.form-contact .content input,
+.form-contact .content textarea{
+  font-size: 14px;
+}
+.form-contact .content input[name='email']{
+  color: #58bfe8;
+  position: relative; 
+}
+.input-group .input-group-addon {
+    border-radius: 0;
+    border-color: #d2d6de;
+    background-color: #fff;
+}
+
+.input-group-addon:first-child {
+    border-right: 0;
+}
+
+.civilite{
+  background: #bcbcbc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-span span,.civilite span{
+  border-left: 1px solid #fff;
+  padding: 3px 10px 3px 10px; 
+}
+
+.btn-blue.selected{
+  background: #55bfe8; 
+}
+.btn-pink.selected{
+  background: #ed65b4;
+}
+
+.btn-hop-blue{
+  background: #55bfe8;
+  color: #fff;
+}
+.btn-hop-gray{
+  background: #999999;
+  color: #fff;
+}
+.btn-hop-blue:hover,
+.btn-hop-gray:hover{
+  color: #fff;
+  cursor: pointer;
+}
+div.disabel input,
+div.disabel textarea{
+  pointer-events:none;
+  border: none;
+}
+
+.has-error small{
+  color: #c55c5c;
+}
